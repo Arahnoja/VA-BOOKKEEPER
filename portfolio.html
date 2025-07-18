@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Arah Noja</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>AN</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="themeIcon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-page">
+        <div class="container">
+            <div class="page-header">
+                <h1 class="page-title">My Portfolio</h1>
+                <p class="page-subtitle">Recent projects and achievements</p>
+            </div>
+
+            <div class="portfolio-content">
+                <div class="portfolio-projects">
+                    <h2>Featured Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/bookkeeping-project.jpg" alt="Bookkeeping Management System">
+                            </div>
+                            <div class="project-info">
+                                <h4>Bookkeeping Management System</h4>
+                                <p>Complete financial management system with daily categorization, monthly reconciliation, and comprehensive reporting using QuickBooks and Wave.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">QuickBooks</span>
+                                    <span class="tech-tag">Wave</span>
+                                    <span class="tech-tag">Financial Analysis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/web-development-project.jpg" alt="NowSite Web Development">
+                            </div>
+                            <div class="project-info">
+                                <h4>NowSite Web Development</h4>
+                                <p>Professional website development using NowSite platform with responsive design and modern frontend technologies.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">NowSite</span>
+                                    <span class="tech-tag">Frontend</span>
+                                    <span class="tech-tag">Responsive Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/video-editing-project.jpg" alt="Video Editing Portfolio">
+                            </div>
+                            <div class="project-info">
+                                <h4>Video Editing Portfolio</h4>
+                                <p>Professional video editing services using Canva and advanced editing techniques for marketing and promotional content.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Canva</span>
+                                    <span class="tech-tag">Video Editing</span>
+                                    <span class="tech-tag">Marketing</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="images/lead-generation-project.jpg" alt="Lead Generation Campaign">
+                            </div>
+                            <div class="project-info">
+                                <h4>Lead Generation Campaign</h4>
+                                <p>Comprehensive lead generation strategy including social media marketing, email campaigns, and customer acquisition.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Lead Generation</span>
+                                    <span class="tech-tag">Email Marketing</span>
+                                    <span class="tech-tag">Social Media</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-stats">
+                    <h2>Achievements & Stats</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">📅</div>
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">✅</div>
+                            <div class="stat-number">40+</div>
+                            <div class="stat-label">Completed Projects</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">😊</div>
+                            <div class="stat-label">Happy Customers</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🏆</div>
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Awards Won</div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <h4>Client Testimonial</h4>
+                        <blockquote>
+                            "Arah's expertise in bookkeeping and web development has been invaluable to our business. Her attention to detail and professional approach make her an exceptional virtual assistant."
+                        </blockquote>
+                        <cite>- Haide M. Calustre, Bookkeeper</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Arah Noja. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:sarvidarah@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
